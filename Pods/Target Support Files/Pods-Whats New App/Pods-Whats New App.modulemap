@@ -1,0 +1,6 @@
+framework module Pods_Whats_New_App {
+  umbrella header "Pods-Whats New App-umbrella.h"
+
+  export *
+  module * { export * }
+}

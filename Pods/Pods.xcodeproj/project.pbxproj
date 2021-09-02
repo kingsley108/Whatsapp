@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0426EEC3FD0B71B2AAE251936CB9016A /* Pods-Whats New App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569BEA13BAA4DAFEEA5A0308D2D588C5 /* Pods-Whats New App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		135355989CB8F4894538B0EF3595670B /* WhatsNewViewController+CompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123BD926EA358035E421D983F3D0BF12 /* WhatsNewViewController+CompletionButton.swift */; };
+		15E48769680E3D07307C8FE25BA0B6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		175D1B1AD249B3821A1A6D334FAEEFE9 /* WhatsNewViewController+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8866DD2594BBA2471ABCF3355E3ABF25 /* WhatsNewViewController+Theme.swift */; };
+		28FA59EF203563D72C657A6B2B4652A1 /* WhatsNewViewController+TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61232F50780A60EF8B60731A077DC59B /* WhatsNewViewController+TitleView.swift */; };
+		39C7D98371554FB0E9223CBACD317F67 /* Pods-Whats New App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E186C4FFF3892DDD41739CB5DA1B8B /* Pods-Whats New App-dummy.m */; };
+		43A8D68FF6CB9C65661A74FDB5BFB8B0 /* WhatsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCCF11DC6229CBA4E4E073A24FD994 /* WhatsNewViewController.swift */; };
+		4DEDE0DFA06FC57E68DEB0747A4EEF6B /* WhatsNewViewController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82364B8F3E354C978544ACDFD24DDDAD /* WhatsNewViewController+Configuration.swift */; };
+		53431658B2ED4BF916684D8EFB261AFF /* WhatsNew+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F537DEED72115F20F0F8FA2E4EB91 /* WhatsNew+Version.swift */; };
+		550803E93DC5CD1B8353C900E5C22151 /* WhatsNewItemsViewController+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835AF605FB3A88BC2081C93555FEA26 /* WhatsNewItemsViewController+Cell.swift */; };
+		5DB0481FE67160F29E54388D6A02E088 /* WhatsNewViewController+DetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CB21B3C0202DC3260A26D05B40F8E /* WhatsNewViewController+DetailButton.swift */; };
+		62DF40A031A9C9ACD49407D7D19EA9D5 /* InMemoryWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BC7962C65F70B79F6D71F9614EEDB /* InMemoryWhatsNewVersionStore.swift */; };
+		6CA6CCF195736B78B1ED61A66157BBE4 /* UIView+MakeConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F5B1154C5791CCC16A93807D6EA8E /* UIView+MakeConstraints.swift */; };
+		78A2631E0236B8A5AB7C8C3779B8971E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7F37027467D4403CA4FAE1941BB8563C /* WhatsNewViewController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C4D9CDBDDA234B7C75C29E2851647 /* WhatsNewViewController+Animation.swift */; };
+		82788FD329D7DCD4CCB1B2F5B6F1F4B6 /* WhatsNewButtonViewController+CompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3428A07FEFA789152E1A30F6F48F /* WhatsNewButtonViewController+CompletionButton.swift */; };
+		86AB88B437A27DC67D827810F72BCC0E /* WhatsNewKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A746AB9589B0B5A0452E7E9B6C858944 /* WhatsNewKit-dummy.m */; };
+		8728BACCDF42EC909F3194029C0823B2 /* Pods-Whats New App-Whats New AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C88E92570390428D1BECF7A2DB31BE0 /* Pods-Whats New App-Whats New AppUITests-dummy.m */; };
+		8DAEA3C4AFED01FF750EB92A117BC62C /* WhatsNewTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F7C443B9B9867DB4EBE28A3BF48A9 /* WhatsNewTitleViewController.swift */; };
+		9745D1EE549E85779C57B87671177288 /* WhatsNewViewController+HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C10EEDDDBB12C496E3F7BAA1E397E /* WhatsNewViewController+HapticFeedback.swift */; };
+		9E29E83BFF2D4CF878DA07491762BBA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9F297F1FA6B83119C81FEB34DB9CA299 /* UIColor+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1056AF758FAC5AC9565AF1CCCF396A /* UIColor+Defaults.swift */; };
+		AC63AFFBC65E34D35CDC67F87001389E /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BD92C765FC847F1492CF2D74683679 /* WhatsNew.swift */; };
+		AC926AED3344593D0F4809FAD9A3E02E /* WhatsNewViewController+ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69AF13DD8B5551905126FBC38CF9B85 /* WhatsNewViewController+ItemsView.swift */; };
+		AE84E1BD09ED6D5203382E021D65C733 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F47C7ED311B235CAF0994305C7BA17 /* Anchor.swift */; };
+		B159B4FB4FBAA549A713C037E6A5B7FE /* WhatsNew+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749C6C1F3D038C383AB679269A7D11BB /* WhatsNew+Item.swift */; };
+		B2577A34735226765F030BA6F9C141B0 /* WhatsNewKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F66DA834365011884A43971493D19C30 /* WhatsNewKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B450F34FC2815A54061CF35B2A97E219 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266DA44BA2E5EE8EB7E7C76970A8FF4 /* Disposable.swift */; };
+		BCBA2B75E8D83AA25B8C612DE08B9C3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		C885AB46DD90010834E4DCC567891ADD /* WhatsNewButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D212DE654B92C1B65B73AFD45F41171 /* WhatsNewButtonViewController.swift */; };
+		CD267E84AF2D62E81C087EF89573BE9A /* WhatsNewItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC067737693CC3E23A4AC1E702199F /* WhatsNewItemsViewController.swift */; };
+		DA219CD6195F9C96E41C358075F6DAB5 /* WhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0B06594CB1B93DB4446F0A32A509B /* WhatsNewVersionStore.swift */; };
+		E1D791E0B9C39AC51C10AE32EDD67AB5 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38B116F67DBD7236A0F76A6778E683 /* DisposeBag.swift */; };
+		EA5581FBF04DDA49565B84D7A3E8E0F7 /* KeyValueWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE517060BAD05528900E79C29CB77B32 /* KeyValueWhatsNewVersionStore.swift */; };
+		ECAC9636122077547A74018768637561 /* WhatsNewButtonViewController+DetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22724B732FE3F706E193FE71030CBA /* WhatsNewButtonViewController+DetailButton.swift */; };
+		ED43B423116A9651AFA62DA44F35C986 /* Pods-Whats New App-Whats New AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 074905A2CAB3FBB32B3D492E0ED671B6 /* Pods-Whats New App-Whats New AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F200F36D04403C6AA4CEB3B0B6A3B5A2 /* Pods-Whats New AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D7011F68E8B20AAA8616AC397FFC6 /* Pods-Whats New AppTests-dummy.m */; };
+		FA09EF08D70422CE98A451C1275CD262 /* Pods-Whats New AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 031B62CEC1537A815E8B3871221CF939 /* Pods-Whats New AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD27784EB4BC8E938FE2CE11A4B19BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EF1080AAFE09D2F59EF5F3484D5D9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D197EE2CE947C98D3AE7A8F8AEB940;
+			remoteInfo = "Pods-Whats New App";
+		};
+		CB6C1706AA2E18C1D39AD1EA25B112D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9704B189A5639F0B7534EC8872960E23;
+			remoteInfo = WhatsNewKit;
+		};
+		EAC6932AB5D03F78FBD6081AC5925EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9704B189A5639F0B7534EC8872960E23;
+			remoteInfo = WhatsNewKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007C105930019D00BB7EC032C28C7693 /* Pods-Whats New App-Whats New AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Whats New App-Whats New AppUITests.modulemap"; sourceTree = "<group>"; };
+		031B62CEC1537A815E8B3871221CF939 /* Pods-Whats New AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Whats New AppTests-umbrella.h"; sourceTree = "<group>"; };
+		03599686DD8EB83A355C41CDF4BDBC39 /* Pods-Whats New App-Whats New AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New App-Whats New AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		074905A2CAB3FBB32B3D492E0ED671B6 /* Pods-Whats New App-Whats New AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Whats New App-Whats New AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		0EDCCF11DC6229CBA4E4E073A24FD994 /* WhatsNewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNewViewController.swift; path = Sources/WhatsNewViewController.swift; sourceTree = "<group>"; };
+		106F3428A07FEFA789152E1A30F6F48F /* WhatsNewButtonViewController+CompletionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewButtonViewController+CompletionButton.swift"; path = "Sources/Components/Buttons/WhatsNewButtonViewController+CompletionButton.swift"; sourceTree = "<group>"; };
+		1174C4EF3C2E2BB447D90F6E7A1C75F6 /* Pods-Whats New AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Whats New AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		123BD926EA358035E421D983F3D0BF12 /* WhatsNewViewController+CompletionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+CompletionButton.swift"; path = "Sources/Configuration/WhatsNewViewController+CompletionButton.swift"; sourceTree = "<group>"; };
+		139F537DEED72115F20F0F8FA2E4EB91 /* WhatsNew+Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNew+Version.swift"; path = "Sources/Models/WhatsNew+Version.swift"; sourceTree = "<group>"; };
+		1F2FEAEB400BABE043D9CD79E2AF2C39 /* Pods-Whats New App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New App.release.xcconfig"; sourceTree = "<group>"; };
+		23D030E9F5CB623B6C8ACF806BC5F22A /* Pods-Whats New AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New AppTests-Info.plist"; sourceTree = "<group>"; };
+		2CC2D91414739764CD69C4ABBD9D1574 /* Pods-Whats New AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D212DE654B92C1B65B73AFD45F41171 /* WhatsNewButtonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNewButtonViewController.swift; path = Sources/Components/Buttons/WhatsNewButtonViewController.swift; sourceTree = "<group>"; };
+		3041D2B3C923A37A9F1585F9F0BD59A8 /* Pods-Whats New App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Whats New App.modulemap"; sourceTree = "<group>"; };
+		355957265FA83C9ACAC917E13B44DEDE /* Pods-Whats New App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Whats New App-frameworks.sh"; sourceTree = "<group>"; };
+		39E186C4FFF3892DDD41739CB5DA1B8B /* Pods-Whats New App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Whats New App-dummy.m"; sourceTree = "<group>"; };
+		3FEC067737693CC3E23A4AC1E702199F /* WhatsNewItemsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNewItemsViewController.swift; path = Sources/Components/Items/WhatsNewItemsViewController.swift; sourceTree = "<group>"; };
+		45D92412BED3CB2B9FE14317DED5F546 /* WhatsNewKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WhatsNewKit-Info.plist"; sourceTree = "<group>"; };
+		4687A0D04B7485A5A79F1E1FCE3D2250 /* Pods-Whats New AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Whats New AppTests.modulemap"; sourceTree = "<group>"; };
+		489C8E61F75360F10DE57AA024D12D06 /* WhatsNewKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WhatsNewKit.modulemap; sourceTree = "<group>"; };
+		4B81151D23A3517455B5132069E1EEE2 /* Pods-Whats New App-Whats New AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New App-Whats New AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4BF332D7700113FC95C50B6899A87A /* Pods-Whats New App-Whats New AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Whats New App-Whats New AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5266DA44BA2E5EE8EB7E7C76970A8FF4 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = Sources/DataStructures/Disposable/Disposable.swift; sourceTree = "<group>"; };
+		542C4D9CDBDDA234B7C75C29E2851647 /* WhatsNewViewController+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+Animation.swift"; path = "Sources/Configuration/WhatsNewViewController+Animation.swift"; sourceTree = "<group>"; };
+		54AC7C71B7821297E02A3C5FCCEF6AA5 /* Pods_Whats_New_App_Whats_New_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Whats_New_App_Whats_New_AppUITests.framework; path = "Pods-Whats New App-Whats New AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		569BEA13BAA4DAFEEA5A0308D2D588C5 /* Pods-Whats New App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Whats New App-umbrella.h"; sourceTree = "<group>"; };
+		57E338EAB6B9B79B123324F5D30D8267 /* Pods-Whats New App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New App.debug.xcconfig"; sourceTree = "<group>"; };
+		5CFED2D4DBBD71FF284EAE62F48D5251 /* WhatsNewKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhatsNewKit.release.xcconfig; sourceTree = "<group>"; };
+		5FF8874A54292F26692FAAB8FD617926 /* Pods-Whats New AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		61232F50780A60EF8B60731A077DC59B /* WhatsNewViewController+TitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+TitleView.swift"; path = "Sources/Configuration/WhatsNewViewController+TitleView.swift"; sourceTree = "<group>"; };
+		628D103D0079D94A7C110F068F01727C /* Pods-Whats New App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Whats New App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C88E92570390428D1BECF7A2DB31BE0 /* Pods-Whats New App-Whats New AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Whats New App-Whats New AppUITests-dummy.m"; sourceTree = "<group>"; };
+		6EB3F812AC07FE2470855A71AD51879B /* Pods-Whats New AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		749C6C1F3D038C383AB679269A7D11BB /* WhatsNew+Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNew+Item.swift"; path = "Sources/Models/WhatsNew+Item.swift"; sourceTree = "<group>"; };
+		7A9485D5005ACFF057A3BFFBD0387F65 /* WhatsNewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WhatsNewKit.framework; path = WhatsNewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3F7C443B9B9867DB4EBE28A3BF48A9 /* WhatsNewTitleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNewTitleViewController.swift; path = Sources/Components/Title/WhatsNewTitleViewController.swift; sourceTree = "<group>"; };
+		82364B8F3E354C978544ACDFD24DDDAD /* WhatsNewViewController+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+Configuration.swift"; path = "Sources/Configuration/WhatsNewViewController+Configuration.swift"; sourceTree = "<group>"; };
+		859FE750DF88EB57B31017255FE36008 /* WhatsNewKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhatsNewKit-prefix.pch"; sourceTree = "<group>"; };
+		87981D29BBE5562F75B885FC2F7000B0 /* WhatsNewKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhatsNewKit.debug.xcconfig; sourceTree = "<group>"; };
+		8866DD2594BBA2471ABCF3355E3ABF25 /* WhatsNewViewController+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+Theme.swift"; path = "Sources/Theme/WhatsNewViewController+Theme.swift"; sourceTree = "<group>"; };
+		8B93A0404956D9AC90F6CADC3613D26D /* Pods_Whats_New_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Whats_New_App.framework; path = "Pods-Whats New App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F38B116F67DBD7236A0F76A6778E683 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = Sources/DataStructures/Disposable/DisposeBag.swift; sourceTree = "<group>"; };
+		92BD92C765FC847F1492CF2D74683679 /* WhatsNew.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNew.swift; path = Sources/Models/WhatsNew.swift; sourceTree = "<group>"; };
+		9835AF605FB3A88BC2081C93555FEA26 /* WhatsNewItemsViewController+Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewItemsViewController+Cell.swift"; path = "Sources/Components/Items/WhatsNewItemsViewController+Cell.swift"; sourceTree = "<group>"; };
+		9A1056AF758FAC5AC9565AF1CCCF396A /* UIColor+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Defaults.swift"; path = "Sources/Extensions/UIColor+Defaults.swift"; sourceTree = "<group>"; };
+		9AE0B06594CB1B93DB4446F0A32A509B /* WhatsNewVersionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsNewVersionStore.swift; path = Sources/Store/WhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		9BD90C16300A12F0E0D6676CC5F8B7BE /* Pods-Whats New App-Whats New AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Whats New App-Whats New AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A746AB9589B0B5A0452E7E9B6C858944 /* WhatsNewKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WhatsNewKit-dummy.m"; sourceTree = "<group>"; };
+		AE4C798ECBE674245AD402569980A760 /* Pods-Whats New App-Whats New AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New App-Whats New AppUITests-Info.plist"; sourceTree = "<group>"; };
+		AE517060BAD05528900E79C29CB77B32 /* KeyValueWhatsNewVersionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyValueWhatsNewVersionStore.swift; path = Sources/Store/KeyValueWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		B29F5B1154C5791CCC16A93807D6EA8E /* UIView+MakeConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+MakeConstraints.swift"; path = "Sources/Extensions/UIView+MakeConstraints.swift"; sourceTree = "<group>"; };
+		BD22724B732FE3F706E193FE71030CBA /* WhatsNewButtonViewController+DetailButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewButtonViewController+DetailButton.swift"; path = "Sources/Components/Buttons/WhatsNewButtonViewController+DetailButton.swift"; sourceTree = "<group>"; };
+		C36CB21B3C0202DC3260A26D05B40F8E /* WhatsNewViewController+DetailButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+DetailButton.swift"; path = "Sources/Configuration/WhatsNewViewController+DetailButton.swift"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5F47C7ED311B235CAF0994305C7BA17 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = Sources/Extensions/Anchor.swift; sourceTree = "<group>"; };
+		D5F721D45D3304FF64A39E1E58813D29 /* Pods-Whats New App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New App-acknowledgements.plist"; sourceTree = "<group>"; };
+		D69AF13DD8B5551905126FBC38CF9B85 /* WhatsNewViewController+ItemsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+ItemsView.swift"; path = "Sources/Configuration/WhatsNewViewController+ItemsView.swift"; sourceTree = "<group>"; };
+		DAF7C52A04496366CDA1ECC82D64181D /* Pods_Whats_New_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Whats_New_AppTests.framework; path = "Pods-Whats New AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C10EEDDDBB12C496E3F7BAA1E397E /* WhatsNewViewController+HapticFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WhatsNewViewController+HapticFeedback.swift"; path = "Sources/Configuration/WhatsNewViewController+HapticFeedback.swift"; sourceTree = "<group>"; };
+		E2843786CB263D52E0FEB2D18AB7BAD2 /* Pods-Whats New App-Whats New AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Whats New App-Whats New AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E31D7011F68E8B20AAA8616AC397FFC6 /* Pods-Whats New AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Whats New AppTests-dummy.m"; sourceTree = "<group>"; };
+		E66BC7962C65F70B79F6D71F9614EEDB /* InMemoryWhatsNewVersionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InMemoryWhatsNewVersionStore.swift; path = Sources/Store/InMemoryWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F05A223BE2C1EF084104A923E8C787AA /* Pods-Whats New App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Whats New App-Info.plist"; sourceTree = "<group>"; };
+		F66DA834365011884A43971493D19C30 /* WhatsNewKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhatsNewKit-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C1816D91A7A8519A338B1D6D43B334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E29E83BFF2D4CF878DA07491762BBA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5411DC80DB624F91C92D8E57E34B2C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD27784EB4BC8E938FE2CE11A4B19BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CBA10ECB3E76A1D351F8B7587537B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E48769680E3D07307C8FE25BA0B6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21B53B281DB063688059A9A9E773DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A2631E0236B8A5AB7C8C3779B8971E /* Foundation.framework in Frameworks */,
+				BCBA2B75E8D83AA25B8C612DE08B9C3C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43C2D406440A55AAE030BA4E72E9FD17 /* Pods-Whats New AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4687A0D04B7485A5A79F1E1FCE3D2250 /* Pods-Whats New AppTests.modulemap */,
+				1174C4EF3C2E2BB447D90F6E7A1C75F6 /* Pods-Whats New AppTests-acknowledgements.markdown */,
+				6EB3F812AC07FE2470855A71AD51879B /* Pods-Whats New AppTests-acknowledgements.plist */,
+				E31D7011F68E8B20AAA8616AC397FFC6 /* Pods-Whats New AppTests-dummy.m */,
+				23D030E9F5CB623B6C8ACF806BC5F22A /* Pods-Whats New AppTests-Info.plist */,
+				031B62CEC1537A815E8B3871221CF939 /* Pods-Whats New AppTests-umbrella.h */,
+				2CC2D91414739764CD69C4ABBD9D1574 /* Pods-Whats New AppTests.debug.xcconfig */,
+				5FF8874A54292F26692FAAB8FD617926 /* Pods-Whats New AppTests.release.xcconfig */,
+			);
+			name = "Pods-Whats New AppTests";
+			path = "Target Support Files/Pods-Whats New AppTests";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91E475440FD1C6EFFCC2BE824A96F296 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				489C8E61F75360F10DE57AA024D12D06 /* WhatsNewKit.modulemap */,
+				A746AB9589B0B5A0452E7E9B6C858944 /* WhatsNewKit-dummy.m */,
+				45D92412BED3CB2B9FE14317DED5F546 /* WhatsNewKit-Info.plist */,
+				859FE750DF88EB57B31017255FE36008 /* WhatsNewKit-prefix.pch */,
+				F66DA834365011884A43971493D19C30 /* WhatsNewKit-umbrella.h */,
+				87981D29BBE5562F75B885FC2F7000B0 /* WhatsNewKit.debug.xcconfig */,
+				5CFED2D4DBBD71FF284EAE62F48D5251 /* WhatsNewKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WhatsNewKit";
+			sourceTree = "<group>";
+		};
+		BF6186B2060159629A632C972C6621C2 /* Pods-Whats New App */ = {
+			isa = PBXGroup;
+			children = (
+				3041D2B3C923A37A9F1585F9F0BD59A8 /* Pods-Whats New App.modulemap */,
+				628D103D0079D94A7C110F068F01727C /* Pods-Whats New App-acknowledgements.markdown */,
+				D5F721D45D3304FF64A39E1E58813D29 /* Pods-Whats New App-acknowledgements.plist */,
+				39E186C4FFF3892DDD41739CB5DA1B8B /* Pods-Whats New App-dummy.m */,
+				355957265FA83C9ACAC917E13B44DEDE /* Pods-Whats New App-frameworks.sh */,
+				F05A223BE2C1EF084104A923E8C787AA /* Pods-Whats New App-Info.plist */,
+				569BEA13BAA4DAFEEA5A0308D2D588C5 /* Pods-Whats New App-umbrella.h */,
+				57E338EAB6B9B79B123324F5D30D8267 /* Pods-Whats New App.debug.xcconfig */,
+				1F2FEAEB400BABE043D9CD79E2AF2C39 /* Pods-Whats New App.release.xcconfig */,
+			);
+			name = "Pods-Whats New App";
+			path = "Target Support Files/Pods-Whats New App";
+			sourceTree = "<group>";
+		};
+		C1B7363F7F59284023A94FB030A09B9D /* Pods-Whats New App-Whats New AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				007C105930019D00BB7EC032C28C7693 /* Pods-Whats New App-Whats New AppUITests.modulemap */,
+				E2843786CB263D52E0FEB2D18AB7BAD2 /* Pods-Whats New App-Whats New AppUITests-acknowledgements.markdown */,
+				03599686DD8EB83A355C41CDF4BDBC39 /* Pods-Whats New App-Whats New AppUITests-acknowledgements.plist */,
+				6C88E92570390428D1BECF7A2DB31BE0 /* Pods-Whats New App-Whats New AppUITests-dummy.m */,
+				4C4BF332D7700113FC95C50B6899A87A /* Pods-Whats New App-Whats New AppUITests-frameworks.sh */,
+				AE4C798ECBE674245AD402569980A760 /* Pods-Whats New App-Whats New AppUITests-Info.plist */,
+				074905A2CAB3FBB32B3D492E0ED671B6 /* Pods-Whats New App-Whats New AppUITests-umbrella.h */,
+				4B81151D23A3517455B5132069E1EEE2 /* Pods-Whats New App-Whats New AppUITests.debug.xcconfig */,
+				9BD90C16300A12F0E0D6676CC5F8B7BE /* Pods-Whats New App-Whats New AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Whats New App-Whats New AppUITests";
+			path = "Target Support Files/Pods-Whats New App-Whats New AppUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CFC5FF5483FBE4C9B86E9C9E858D9B6C /* Pods */,
+				F41D2AC1DFB6C841C661EFF55FDD79BA /* Products */,
+				E8733BEBA234EAB79A3AC067AE55BB5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC5FF5483FBE4C9B86E9C9E858D9B6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4CBF80D4456E7401E8E9246DDEC0EC3 /* WhatsNewKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4CBF80D4456E7401E8E9246DDEC0EC3 /* WhatsNewKit */ = {
+			isa = PBXGroup;
+			children = (
+				D5F47C7ED311B235CAF0994305C7BA17 /* Anchor.swift */,
+				5266DA44BA2E5EE8EB7E7C76970A8FF4 /* Disposable.swift */,
+				8F38B116F67DBD7236A0F76A6778E683 /* DisposeBag.swift */,
+				E66BC7962C65F70B79F6D71F9614EEDB /* InMemoryWhatsNewVersionStore.swift */,
+				AE517060BAD05528900E79C29CB77B32 /* KeyValueWhatsNewVersionStore.swift */,
+				9A1056AF758FAC5AC9565AF1CCCF396A /* UIColor+Defaults.swift */,
+				B29F5B1154C5791CCC16A93807D6EA8E /* UIView+MakeConstraints.swift */,
+				92BD92C765FC847F1492CF2D74683679 /* WhatsNew.swift */,
+				749C6C1F3D038C383AB679269A7D11BB /* WhatsNew+Item.swift */,
+				139F537DEED72115F20F0F8FA2E4EB91 /* WhatsNew+Version.swift */,
+				2D212DE654B92C1B65B73AFD45F41171 /* WhatsNewButtonViewController.swift */,
+				106F3428A07FEFA789152E1A30F6F48F /* WhatsNewButtonViewController+CompletionButton.swift */,
+				BD22724B732FE3F706E193FE71030CBA /* WhatsNewButtonViewController+DetailButton.swift */,
+				3FEC067737693CC3E23A4AC1E702199F /* WhatsNewItemsViewController.swift */,
+				9835AF605FB3A88BC2081C93555FEA26 /* WhatsNewItemsViewController+Cell.swift */,
+				7D3F7C443B9B9867DB4EBE28A3BF48A9 /* WhatsNewTitleViewController.swift */,
+				9AE0B06594CB1B93DB4446F0A32A509B /* WhatsNewVersionStore.swift */,
+				0EDCCF11DC6229CBA4E4E073A24FD994 /* WhatsNewViewController.swift */,
+				542C4D9CDBDDA234B7C75C29E2851647 /* WhatsNewViewController+Animation.swift */,
+				123BD926EA358035E421D983F3D0BF12 /* WhatsNewViewController+CompletionButton.swift */,
+				82364B8F3E354C978544ACDFD24DDDAD /* WhatsNewViewController+Configuration.swift */,
+				C36CB21B3C0202DC3260A26D05B40F8E /* WhatsNewViewController+DetailButton.swift */,
+				DF7C10EEDDDBB12C496E3F7BAA1E397E /* WhatsNewViewController+HapticFeedback.swift */,
+				D69AF13DD8B5551905126FBC38CF9B85 /* WhatsNewViewController+ItemsView.swift */,
+				8866DD2594BBA2471ABCF3355E3ABF25 /* WhatsNewViewController+Theme.swift */,
+				61232F50780A60EF8B60731A077DC59B /* WhatsNewViewController+TitleView.swift */,
+				91E475440FD1C6EFFCC2BE824A96F296 /* Support Files */,
+			);
+			name = WhatsNewKit;
+			path = WhatsNewKit;
+			sourceTree = "<group>";
+		};
+		E8733BEBA234EAB79A3AC067AE55BB5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF6186B2060159629A632C972C6621C2 /* Pods-Whats New App */,
+				C1B7363F7F59284023A94FB030A09B9D /* Pods-Whats New App-Whats New AppUITests */,
+				43C2D406440A55AAE030BA4E72E9FD17 /* Pods-Whats New AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F41D2AC1DFB6C841C661EFF55FDD79BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B93A0404956D9AC90F6CADC3613D26D /* Pods_Whats_New_App.framework */,
+				54AC7C71B7821297E02A3C5FCCEF6AA5 /* Pods_Whats_New_App_Whats_New_AppUITests.framework */,
+				DAF7C52A04496366CDA1ECC82D64181D /* Pods_Whats_New_AppTests.framework */,
+				7A9485D5005ACFF057A3BFFBD0387F65 /* WhatsNewKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		087993079B2BF63E9C34B398A0D8898E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0426EEC3FD0B71B2AAE251936CB9016A /* Pods-Whats New App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E51C2B581E2371F6C06168CF21170E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED43B423116A9651AFA62DA44F35C986 /* Pods-Whats New App-Whats New AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD3B4AC85838635B4BC85C18B3B35B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2577A34735226765F030BA6F9C141B0 /* WhatsNewKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF5703CB293C3209E3ABBDCD30884BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA09EF08D70422CE98A451C1275CD262 /* Pods-Whats New AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D0F0B1E0D08908D2542E48484881399 /* Pods-Whats New App-Whats New AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1E03D541F852F275407D6EE2F730DE /* Build configuration list for PBXNativeTarget "Pods-Whats New App-Whats New AppUITests" */;
+			buildPhases = (
+				2E51C2B581E2371F6C06168CF21170E4 /* Headers */,
+				7FC4B6B8AEBF61CCDBD6D33C16BC3605 /* Sources */,
+				22C1816D91A7A8519A338B1D6D43B334 /* Frameworks */,
+				BDF0D43CEC434F345111EF1C6B39BAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79FC62EED0BD20420324F4C2A689A8B /* PBXTargetDependency */,
+			);
+			name = "Pods-Whats New App-Whats New AppUITests";
+			productName = "Pods-Whats New App-Whats New AppUITests";
+			productReference = 54AC7C71B7821297E02A3C5FCCEF6AA5 /* Pods_Whats_New_App_Whats_New_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9704B189A5639F0B7534EC8872960E23 /* WhatsNewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC60B2F02EAF378F61A16797A5EA32C /* Build configuration list for PBXNativeTarget "WhatsNewKit" */;
+			buildPhases = (
+				5AD3B4AC85838635B4BC85C18B3B35B6 /* Headers */,
+				C42CE5E22EFDEF86ABC2CEA15DC110F3 /* Sources */,
+				B21B53B281DB063688059A9A9E773DB5 /* Frameworks */,
+				5E436503C5154E049DC0E322C45C8B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsNewKit;
+			productName = WhatsNewKit;
+			productReference = 7A9485D5005ACFF057A3BFFBD0387F65 /* WhatsNewKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9FD2F8FAE7F27E7A846F1F541C365EC /* Pods-Whats New AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D871B66825381B409211283E0A95060D /* Build configuration list for PBXNativeTarget "Pods-Whats New AppTests" */;
+			buildPhases = (
+				5BF5703CB293C3209E3ABBDCD30884BF /* Headers */,
+				142DBF472CDE76D4C8C02BFD508B0E38 /* Sources */,
+				5411DC80DB624F91C92D8E57E34B2C2E /* Frameworks */,
+				C260BC9EAC4F86A3831350488917F5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59654BBDFE02F8E247700C83CBC23A96 /* PBXTargetDependency */,
+			);
+			name = "Pods-Whats New AppTests";
+			productName = "Pods-Whats New AppTests";
+			productReference = DAF7C52A04496366CDA1ECC82D64181D /* Pods_Whats_New_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6D197EE2CE947C98D3AE7A8F8AEB940 /* Pods-Whats New App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7097F86E0849F087ACE2CAD0A6B5FE39 /* Build configuration list for PBXNativeTarget "Pods-Whats New App" */;
+			buildPhases = (
+				087993079B2BF63E9C34B398A0D8898E /* Headers */,
+				93C9788FCFB4E4C147EEB926C74FFDD0 /* Sources */,
+				78CBA10ECB3E76A1D351F8B7587537B1 /* Frameworks */,
+				FCDFF68137F9F09F0DDAAC2574571369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5206C0904C038FE04C98E61916E429C /* PBXTargetDependency */,
+			);
+			name = "Pods-Whats New App";
+			productName = "Pods-Whats New App";
+			productReference = 8B93A0404956D9AC90F6CADC3613D26D /* Pods_Whats_New_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F41D2AC1DFB6C841C661EFF55FDD79BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D197EE2CE947C98D3AE7A8F8AEB940 /* Pods-Whats New App */,
+				8D0F0B1E0D08908D2542E48484881399 /* Pods-Whats New App-Whats New AppUITests */,
+				E9FD2F8FAE7F27E7A846F1F541C365EC /* Pods-Whats New AppTests */,
+				9704B189A5639F0B7534EC8872960E23 /* WhatsNewKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E436503C5154E049DC0E322C45C8B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF0D43CEC434F345111EF1C6B39BAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260BC9EAC4F86A3831350488917F5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDFF68137F9F09F0DDAAC2574571369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142DBF472CDE76D4C8C02BFD508B0E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F200F36D04403C6AA4CEB3B0B6A3B5A2 /* Pods-Whats New AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4B6B8AEBF61CCDBD6D33C16BC3605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8728BACCDF42EC909F3194029C0823B2 /* Pods-Whats New App-Whats New AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C9788FCFB4E4C147EEB926C74FFDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C7D98371554FB0E9223CBACD317F67 /* Pods-Whats New App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42CE5E22EFDEF86ABC2CEA15DC110F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE84E1BD09ED6D5203382E021D65C733 /* Anchor.swift in Sources */,
+				B450F34FC2815A54061CF35B2A97E219 /* Disposable.swift in Sources */,
+				E1D791E0B9C39AC51C10AE32EDD67AB5 /* DisposeBag.swift in Sources */,
+				62DF40A031A9C9ACD49407D7D19EA9D5 /* InMemoryWhatsNewVersionStore.swift in Sources */,
+				EA5581FBF04DDA49565B84D7A3E8E0F7 /* KeyValueWhatsNewVersionStore.swift in Sources */,
+				9F297F1FA6B83119C81FEB34DB9CA299 /* UIColor+Defaults.swift in Sources */,
+				6CA6CCF195736B78B1ED61A66157BBE4 /* UIView+MakeConstraints.swift in Sources */,
+				B159B4FB4FBAA549A713C037E6A5B7FE /* WhatsNew+Item.swift in Sources */,
+				53431658B2ED4BF916684D8EFB261AFF /* WhatsNew+Version.swift in Sources */,
+				AC63AFFBC65E34D35CDC67F87001389E /* WhatsNew.swift in Sources */,
+				82788FD329D7DCD4CCB1B2F5B6F1F4B6 /* WhatsNewButtonViewController+CompletionButton.swift in Sources */,
+				ECAC9636122077547A74018768637561 /* WhatsNewButtonViewController+DetailButton.swift in Sources */,
+				C885AB46DD90010834E4DCC567891ADD /* WhatsNewButtonViewController.swift in Sources */,
+				550803E93DC5CD1B8353C900E5C22151 /* WhatsNewItemsViewController+Cell.swift in Sources */,
+				CD267E84AF2D62E81C087EF89573BE9A /* WhatsNewItemsViewController.swift in Sources */,
+				86AB88B437A27DC67D827810F72BCC0E /* WhatsNewKit-dummy.m in Sources */,
+				8DAEA3C4AFED01FF750EB92A117BC62C /* WhatsNewTitleViewController.swift in Sources */,
+				DA219CD6195F9C96E41C358075F6DAB5 /* WhatsNewVersionStore.swift in Sources */,
+				7F37027467D4403CA4FAE1941BB8563C /* WhatsNewViewController+Animation.swift in Sources */,
+				135355989CB8F4894538B0EF3595670B /* WhatsNewViewController+CompletionButton.swift in Sources */,
+				4DEDE0DFA06FC57E68DEB0747A4EEF6B /* WhatsNewViewController+Configuration.swift in Sources */,
+				5DB0481FE67160F29E54388D6A02E088 /* WhatsNewViewController+DetailButton.swift in Sources */,
+				9745D1EE549E85779C57B87671177288 /* WhatsNewViewController+HapticFeedback.swift in Sources */,
+				AC926AED3344593D0F4809FAD9A3E02E /* WhatsNewViewController+ItemsView.swift in Sources */,
+				175D1B1AD249B3821A1A6D334FAEEFE9 /* WhatsNewViewController+Theme.swift in Sources */,
+				28FA59EF203563D72C657A6B2B4652A1 /* WhatsNewViewController+TitleView.swift in Sources */,
+				43A8D68FF6CB9C65661A74FDB5BFB8B0 /* WhatsNewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59654BBDFE02F8E247700C83CBC23A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Whats New App";
+			target = F6D197EE2CE947C98D3AE7A8F8AEB940 /* Pods-Whats New App */;
+			targetProxy = 9EF1080AAFE09D2F59EF5F3484D5D9AF /* PBXContainerItemProxy */;
+		};
+		D5206C0904C038FE04C98E61916E429C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WhatsNewKit;
+			target = 9704B189A5639F0B7534EC8872960E23 /* WhatsNewKit */;
+			targetProxy = CB6C1706AA2E18C1D39AD1EA25B112D0 /* PBXContainerItemProxy */;
+		};
+		E79FC62EED0BD20420324F4C2A689A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WhatsNewKit;
+			target = 9704B189A5639F0B7534EC8872960E23 /* WhatsNewKit */;
+			targetProxy = EAC6932AB5D03F78FBD6081AC5925EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		593CC359D6482978A2E564F40687DF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD90C16300A12F0E0D6676CC5F8B7BE /* Pods-Whats New App-Whats New AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New App-Whats New AppUITests/Pods-Whats New App-Whats New AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New App-Whats New AppUITests/Pods-Whats New App-Whats New AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C929FE106B688B6CA0D91B029CE5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87981D29BBE5562F75B885FC2F7000B0 /* WhatsNewKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WhatsNewKit/WhatsNewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WhatsNewKit/WhatsNewKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WhatsNewKit/WhatsNewKit.modulemap";
+				PRODUCT_MODULE_NAME = WhatsNewKit;
+				PRODUCT_NAME = WhatsNewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70524A7E6F6F6C85F4122D80F8AAA4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2FEAEB400BABE043D9CD79E2AF2C39 /* Pods-Whats New App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New App/Pods-Whats New App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New App/Pods-Whats New App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9BA85B64519A0488038B87E495B22A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF8874A54292F26692FAAB8FD617926 /* Pods-Whats New AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New AppTests/Pods-Whats New AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New AppTests/Pods-Whats New AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6320DD04B00892850DBB6B4804816BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E338EAB6B9B79B123324F5D30D8267 /* Pods-Whats New App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New App/Pods-Whats New App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New App/Pods-Whats New App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFEAD6FA38EFBC569D0A76A77A0F76EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFED2D4DBBD71FF284EAE62F48D5251 /* WhatsNewKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WhatsNewKit/WhatsNewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WhatsNewKit/WhatsNewKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WhatsNewKit/WhatsNewKit.modulemap";
+				PRODUCT_MODULE_NAME = WhatsNewKit;
+				PRODUCT_NAME = WhatsNewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B74684A6E193833CE5F3F3F97726F81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC2D91414739764CD69C4ABBD9D1574 /* Pods-Whats New AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New AppTests/Pods-Whats New AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New AppTests/Pods-Whats New AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9FC6F92B0F53A6CF368A1F0219FAC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B81151D23A3517455B5132069E1EEE2 /* Pods-Whats New App-Whats New AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Whats New App-Whats New AppUITests/Pods-Whats New App-Whats New AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Whats New App-Whats New AppUITests/Pods-Whats New App-Whats New AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1E03D541F852F275407D6EE2F730DE /* Build configuration list for PBXNativeTarget "Pods-Whats New App-Whats New AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FC6F92B0F53A6CF368A1F0219FAC7E /* Debug */,
+				593CC359D6482978A2E564F40687DF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC60B2F02EAF378F61A16797A5EA32C /* Build configuration list for PBXNativeTarget "WhatsNewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C929FE106B688B6CA0D91B029CE5C6B /* Debug */,
+				AFEAD6FA38EFBC569D0A76A77A0F76EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7097F86E0849F087ACE2CAD0A6B5FE39 /* Build configuration list for PBXNativeTarget "Pods-Whats New App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6320DD04B00892850DBB6B4804816BE /* Debug */,
+				70524A7E6F6F6C85F4122D80F8AAA4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D871B66825381B409211283E0A95060D /* Build configuration list for PBXNativeTarget "Pods-Whats New AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74684A6E193833CE5F3F3F97726F81F /* Debug */,
+				9BA85B64519A0488038B87E495B22A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
